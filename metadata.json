@@ -1,0 +1,7 @@
+{
+  "name": "Green Acres Infrastructures",
+  "description": "A premium real estate and infrastructure development website featuring glassmorphism and neomorphism design, powered by Gemini for intelligent property assistance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Acres Infrastructures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --mint-whisper: #D1F2EB;
+            --emerald-green: #50C878;
+            --royal-amethyst-green: #0B6E4F;
+            --dark-evergreen: #013220;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--mint-whisper);
+            color: var(--dark-evergreen);
+        }
+        .neo-outset {
+            box-shadow: 8px 8px 16px rgba(11, 110, 79, 0.1), -8px -8px 16px #ffffff;
+        }
+        .neo-inset {
+            box-shadow: inset 6px 6px 12px rgba(11, 110, 79, 0.1), inset -6px -6px 12px #ffffff;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .glass-dark {
+            background: rgba(1, 50, 32, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .text-emerald { color: var(--emerald-green); }
+        .bg-emerald { background-color: var(--emerald-green); }
+        .bg-evergreen { background-color: var(--dark-evergreen); }
+        .bg-royal { background-color: var(--royal-amethyst-green); }
+        .bg-mint { background-color: var(--mint-whisper); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
